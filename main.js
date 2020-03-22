@@ -1,7 +1,7 @@
 firebase.auth().onAuthStateChanged(function(user) {
     if (user) {
       // User is signed in.
-      window.location = "principal.html";
+      
     } else {
       // No user is signed in.
     }
@@ -11,9 +11,11 @@ function login() {
     var userEmail = document.getElementById("email_field").value;
     var userPass = document.getElementById("password_field").value;
 
-    firebase.auth().signInWithEmailAndPassword(userEmail, userPass).catch(function(error) {
+    firebase.auth().signInWithEmailAndPassword(userEmail, userPass)
+    .then(function(){
+      window.location = "principal.html";
+    }).catch(function(error) {
         var errorMessage = error.message;
-
         window.alert("Erro: "+errorMessage);
     });
 }

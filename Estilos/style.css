@@ -1,0 +1,58 @@
+/* INDEX - GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    outline: 0;
+}
+
+/* INDEX - CORPO */
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(216, 231, 245);
+}
+
+.login {
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    text-align: center;
+}
+
+.login input {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 20px;
+}
+
+.login button {
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+    border: 1px;
+    background: #5d8ffc;
+    color: white;
+    transition: 0.4s;
+}
+
+.login button:hover {
+    background: white;
+    border: 1px solid #5d8ffc;;
+    color: #5d8ffc;
+}
+
+/* INDEX - FOOTER */
+footer {
+    text-align: center;
+    margin-top: 170px;
+}

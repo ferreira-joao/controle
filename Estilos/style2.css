@@ -65,6 +65,7 @@ header {
     grid-row-end: 5;
 }
 
+/* PRINCIPAL - CONTAINER - BUTTONS */
 #container button {
     cursor: pointer;
     border-radius: 5px;
@@ -80,14 +81,6 @@ header {
     background: white;
     border: 1px solid #5d8ffc;
     color: #5d8ffc;
-}
-
-/* PRINCIPAL - CHOICE */
-.choice {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 45px;
-    align-items: center;
 }
 
 /* PRINCIPAL - FOOTER */

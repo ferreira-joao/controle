@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<title>Adicionar Itens</title>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./Estilos/style3.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase.js"></script>
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="logo.png" alt="logo">
+        <button onclick="logOut()" id="logout">SAIR</button>
+        <button id="back" onclick="window.location.href = 'principal.html'" id="logout">VOLTAR</button>
+    </header>
+
+    <div id="container">
+        <h3><b>Insira os dados:</b></h3><br>
+        <input type="text" placeholder="Nome do Usuário" name="nome" required>
+        <input type="text" placeholder="Número de Série" name="serial" required>
+        <input type="text" placeholder="Marca do Equipamento" name="marca" required>
+        <input type="text" placeholder="Modelo do Equipamento" name="modelo" required>
+    </div>
+</body>
+<footer></footer>
+
+<script src="login.js"></script>
+<script src="main.js"></script>
+
+</html>

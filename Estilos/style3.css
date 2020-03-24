@@ -1,0 +1,96 @@
+/* GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;   
+}
+
+/* ADICIONAR - BODY */
+body {
+    font-family: 'Nunita', sans-serif;
+    background-color: rgb(216, 231, 245);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* ADICIONAR - HEADER */
+header {
+    border: 1px solid rgb(216, 231, 245);
+}
+
+/* ADICIONAR - HEADER - LOGO */
+#logo {
+    width: 300px;
+}
+
+/*ADICIONAR - HEADER - BUTTON */
+#logout {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    float: right;
+    border: 1px solid white;
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#logout:hover {
+    background: none;
+    color: white;
+}
+
+#back {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    float: right;
+    border: 1px solid #5d8ffc;
+    background: #5d8ffc;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#back:hover {
+    background: none;
+    color: #5d8ffc;
+}
+
+/* ADICIONAR - CONTAINER */
+#container {
+    width: 900px;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background: black;
+    background: rgb(0,0,0,0.5);
+    color: white;
+    padding: 16px 64px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+#container h3 {
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+/* ADICIONAR - CONTAINER - FORM */
+#container input {
+    width: 90%;
+    padding: 10px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#container input::placeholder {
+    color: white;
+    opacity: 0.5;
+}

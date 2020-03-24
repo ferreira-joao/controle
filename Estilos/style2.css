@@ -1,4 +1,4 @@
-/* PRINCIPAL - GERAL */
+/* GLOBAL */
 * {
  margin: 0;
  padding: 0;
@@ -88,3 +88,5 @@ footer {
     margin-top: 50px;
     text-align: center;
 }
+
+/* FIM DA PÁGINA PRINCIPAL */
